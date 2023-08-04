@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:p="http://www.springframework.org/schema/p"
+  xmlns:c="http://www.springframework.org/schema/c"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd
+   http://www.springframework.org/schema/context
+      http://www.springframework.org/schema/context/spring-context.xsd
+   ">
+   
+   <!--  <context:annotation-config/>-->
+   
+   
+   <context:component-scan base-package="com.bp.spcd.beans"/>
+
+  <!--    <bean id="wish1" class="com.bp.spcd.beans.Wish" destroy-method="wishDestroy"  init-method="wishInit"  >  
+    <property name="message"  value="Good Morning World" />
+    </bean>
+    
+    <bean  id="add1" class="com.bp.spcd.beans.Address"   p:hno="1-2-3"  p:streetname="mg street" 
+                                                           p:city="banglore"  p:state="karnataka" />
+                                                           
+    <bean  id="per1"  class="com.bp.spcd.beans.Person"  c:ssn="786" c:name="babu"  c:age="25" c:address-ref="add1"/>
+    -->
+
+    
+     <!--   <property  name="hno"  value="1-2-3"/>
+      <property name="streetname"  value="mg street"/>
+      <property name="city"  value="banglore"/>
+      <property  name="state"  value="karnataka"/>    
+    </bean>-->
+    
+   <!--   <bean id="add2" class="com.bp.spcd.beans.Address">
+      
+       <property  name="hno"  value="1-2-5"/>
+      <property name="streetname"  value="mraina street"/>
+      <property name="city"  value="chennai"/>
+      <property  name="state"  value="tamil nadu"/>    
+    
+    
+    
+    </bean>
+    
+    <bean id="per2" class="com.bp.spcd.beans.Person">
+    
+    <property name="ssn"  value="786"/>
+    <property name="name" value=" bhanu"/>
+    <property name="age"  value="35"/>
+    <property name="address" ref="add2"/>    
+    
+    
+    </bean> -->
+  <!--     <bean  id="add11" class="com.bp.spcd.beans.Address">
+    
+      <constructor-arg  name="hno"  value="1-2-3"/>   
+      <constructor-arg name="streetname"  value="mg street"/>
+      <constructor-arg name="city"  value="banglore"/>
+      <constructor-arg   name="state"  value="karnataka"/>    
+    </bean>
+    
+    <bean id="add21" class="com.bp.spcd.beans.Address">
+      
+      <property  name="hno"  value="1-2-5"/>
+      <property name="streetname"  value="mraina street"/>
+      <property name="city"  value="chennai"/>
+      <property  name="state"  value="tamil nadu"/>    
+    
+    
+    
+    </bean>
+    
+    <bean id="per2" class="com.bp.spcd.beans.Person">
+    
+    <property name="ssn"  value="786"/>
+    <property name="name" value=" bhanu"/>
+    <property name="age"  value="35"/>
+    <property name="address" ref="add11"/>    
+    
+    
+    </bean>-->
+    
+    
+    
+   <!--   <bean id="ctry"  class="com.bp.spcd.beans.Country">
+    <property  name="countryname"     value="India"/>
+    <property  name="currencyname"    value="Rupees"/>
+    <property name="states">
+        <set>
+                  <value>Andhra Pradesh</value>
+                  <value>Arunachal pradesh</value>
+                  <value>Telangana</value>
+                  <value>tamilnadu</value>
+                  <value>Karnataka</value>  
+                  <value>kerala</value>  
+                  <value>orissa</value>  
+        </set>  
+        
+    </property>
+    </bean> -->
+    
+    
+   <!--      <bean id="ctry"  class="com.bp.spcd.beans.Country">
+    <property  name="countryname"     value="India"/>
+    <property  name="currencyname"    value="Rupees"/>
+    <property name="states">
+        <map>
+                  <entry key="Ap"  value="Andhra Pradesh"/>
+                  <entry key="ACP" value="Arunachal pradesh"/>
+                  <entry key="TS"  value="Telangana"/>
+                  
+        </map>  
+        
+    </property>
+    </bean> 
+    
+    <bean id="add1" class="com.bp.spcd.beans.Address">
+      
+      <property  name="hno"  value="1-2-5"/>
+      <property name="streetname"  value="mraina street"/>
+      <property name="city"  value="chennai"/>
+      <property  name="state"  value="tamil nadu"/>    
+    
+    
+    
+    </bean>
+    
+    <bean id="add2" class="com.bp.spcd.beans.Address">
+      
+      <property  name="hno"  value="1-2-5"/>
+      <property name="streetname"  value="mg street"/>
+      <property name="city"  value="banglore"/>
+      <property  name="state"  value="karnataka"/>    
+    
+    
+    
+    </bean>
+    
+    <bean id="per1" class="com.bp.spcd.beans.Person"  >
+    
+    <property name="ssn"  value="786"/>
+    <property name="name" value=" bhanu"/>
+    <property name="age"  value="35"/>
+      
+    
+    
+    </bean>-->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+</beans>
